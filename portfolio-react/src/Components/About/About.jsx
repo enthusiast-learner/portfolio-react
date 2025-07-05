@@ -5,7 +5,7 @@ import about_profile from "../../assets/about_profile.svg";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <div className="about-title">
         <h1>About me</h1>
         <img src={theme_pattern} alt="aboutme"></img>
@@ -42,21 +42,32 @@ const About = () => {
               <p>MySQL</p><hr style={{width:"50%"}}></hr>
             </div>
             <div className="about-skill">
-              <p>Hibernate / JPA</p><hr style={{width:"50%"}}></hr>
-            </div>
-            <div className="about-skill">
               <p>REST APIs</p><hr style={{width:"50%"}}></hr>
             </div>
             <div className="about-skill">
               <p>React.js</p><hr style={{width:"50%"}}></hr>
             </div>
             <div className="about-skill">
-              <p>HTML, CSS, JavaScript</p><hr style={{width:"50%"}}></hr>
+              <p>JavaScript</p><hr style={{width:"50%"}}></hr>
             </div>
             <div className="about-skill">
               <p>Git & GitHub</p><hr style={{width:"50%"}}></hr>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="about-achivements">
+        <div className="about-achivement">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
+        </div><hr></hr>
+        <div className="about-achivement">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
+        </div><hr></hr>
+        <div className="about-achivement">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
         </div>
       </div>
     </div>
